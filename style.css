@@ -1,0 +1,76 @@
+*{
+    text-decoration: none;
+}
+
+*, body{
+    font-family: 'IBM Plex Mono', monospace;
+}
+body{
+    background-image: url(./image/wallkri.png);
+    background-size: 100%;
+}
+.bloc{
+    background-color: rgba(255, 205, 205, 0.542);
+    border-radius: 10%;
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.margin_bloc{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.pp{
+    border-radius: 100%;
+    margin: auto;
+    width: 25%;
+}
+.identity{
+    font-size: 2em;
+    font-weight: 600;
+}
+.description{
+    font-weight: 600;
+}
+.center_text{
+    text-align: center;
+}
+
+.social{
+    height: 10%;
+}
+.icon{
+    width: 10%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+
+button,.discord{
+    display: flex;
+    text-align: left;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    margin-top: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    align-items: center;
+}
+
+.insta{
+    background: linear-gradient(to top right,#F77737,#833AB4);
+}
+.discord{
+    background: linear-gradient(to bottom left,#b29fef,#473699 60%);
+    cursor: text;
+
+}
+.insta:hover{
+    color: white;
+}
+
+.text{
+    font-size: 1.5em;
+    font-weight: 600;
+}
