@@ -61,12 +61,16 @@ button,.discord{
 .insta{
     background: linear-gradient(to top right,#F77737,#833AB4);
 }
+
+.youtube{
+    background: linear-gradient(to right,#ce6464,#e84a4a);
+}
 .discord{
     background: linear-gradient(to bottom left,#b29fef,#473699 60%);
     cursor: text;
 
 }
-.insta:hover{
+button:hover{
     color: white;
 }
 
